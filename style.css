@@ -1,0 +1,95 @@
+body {
+  background-color: #19194c;
+  padding: 20px;
+}
+
+.bigContainer{
+  display: flex;
+  justify-content: flex-end;
+}
+.cardView{
+  background-color: green;
+  color: white;
+  border: none;
+}
+.tableView{
+  background-color: green;
+  color: white;
+  border: none;
+}
+
+.bigContainerTable{
+  display: flex;
+  justify-content: flex-end;
+}
+.container {
+  position: relative;
+}
+
+.delBtn {
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: 20px;
+  position: absolute;
+  border-radius: 5px;
+
+}
+.card_item {
+  margin: 30px;
+}
+.card_img {
+  height: 40vh;
+  padding: 10px;
+}
+.card_item h3 {
+  font-size: 15px;
+  font-weight: 400;
+}
+.card-body #saveBtn {
+  margin-left: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(231, 226, 236);
+}
+.table {
+  margin: 40px auto;
+}
+table {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  background-color: white;
+}
+
+table,
+th,
+td {
+  border: 1px solid;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+.deleteBtn {
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.editBtn {
+  background-color: orange;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.saveBtn {
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
